@@ -355,17 +355,18 @@ body, html {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (717) 571-9151</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: andiparab@gmail.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <form id="gform" action="" data-email="andiparab@gmail.com" target="_blank" method="post">
+      <p><input class="w3-input w3-border" id="Name" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" id="Email" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" id="Subject" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" id="Message" type="text" placeholder="Message" required name="Message"></p>
       <p>
         <button class="w3-button w3-black" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
     </form>
+   
     <!-- Image of location/map -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d94560.41337955507!2d-74.03189853986136!3d40.75464134733478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1590334575197!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
